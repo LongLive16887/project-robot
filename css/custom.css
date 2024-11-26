@@ -1,0 +1,57 @@
+/* core styles */
+body{
+    height: 3000px;
+}
+
+.btn_icon{
+    height: 26px;
+    width: 26px;
+}
+
+.btn:hover .btn_icon{
+    background-color: blue;
+    border: none;
+}
+
+@media(min-width: 1920px){
+    .container{
+        max-width: 1140px;
+    }
+}
+/*Colors*/
+.text-white-custom{
+    color: #ffffff;
+}
+
+
+/*Navbar*/ 
+.navbar_brand{
+    width: 48px;
+    height: 32px;
+}
+
+.img_1{
+    width:25px;
+    height: 20px;
+}
+
+/*About section*/
+
+.about{
+    padding: 150px 0px 350px 0px;
+    background-image: url("/images/3316.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.about_image > img {
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+
+
